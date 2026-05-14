@@ -193,7 +193,6 @@ h3 {
 .day-card,
 .lodging-grid article,
 .practical-grid div,
-.variant-panel,
 .legend {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -205,8 +204,7 @@ h3 {
   min-height: 376px;
 }
 
-.day-card.compact,
-.variant-panel {
+.day-card.compact {
   background: #f8f2e8;
 }
 
@@ -221,7 +219,6 @@ h3 {
 .day-card p,
 .lodging-grid p,
 .practical-grid p,
-.variant-panel p,
 .legend p,
 .legend dd {
   color: var(--muted);
@@ -282,31 +279,6 @@ li + li {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.variant-panel {
-  max-width: 900px;
-  margin-left: 302px;
-}
-
-.mini-steps {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 1px;
-  margin-top: 24px;
-  border: 1px solid rgba(49, 81, 63, 0.2);
-  background: rgba(49, 81, 63, 0.2);
-}
-
-.mini-steps span {
-  min-height: 76px;
-  display: grid;
-  place-items: center;
-  padding: 12px;
-  background: #fff;
-  color: var(--forest);
-  font-weight: 800;
-  text-align: center;
-}
-
 .practical-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -330,13 +302,8 @@ li + li {
     grid-template-columns: 1fr 1fr;
   }
 
-  .intro-text,
-  .variant-panel {
+  .intro-text {
     margin-left: 0;
-  }
-
-  .mini-steps {
-    grid-template-columns: 1fr;
   }
 }
 
