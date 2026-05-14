@@ -12,7 +12,7 @@ au depart de Largentiere.
 ## Sources
 
 - MonGR, fiche `GR de Pays Tour du Tanargue`.
-- Decathlon Outdoor, `GRP Tour du Tanargue, 3 jours au coeur des Cevennes`.
+- Decathlon Outdoor, `GRP Tour du Tanargue`.
 - Wikimedia Commons, `Landes du Tanargue.JPG`, utilisee comme photo d'accueil.
 
 La carte fournie est schematique et originale. Elle ne remplace pas une carte IGN,
